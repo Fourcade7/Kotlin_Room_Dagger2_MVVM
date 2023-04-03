@@ -5,12 +5,12 @@
 
 
 
- //Room database
-    def room_version = "2.5.1"
-    implementation "androidx.room:room-runtime:$room_version"
-    annotationProcessor "androidx.room:room-compiler:$room_version"
-// To use Kotlin annotation processing tool (kapt)
-    kapt "androidx.room:room-compiler:$room_version"
+      //Room database
+         def room_version = "2.5.1"
+         implementation "androidx.room:room-runtime:$room_version"
+         annotationProcessor "androidx.room:room-compiler:$room_version"
+     // To use Kotlin annotation processing tool (kapt)
+         kapt "androidx.room:room-compiler:$room_version"
 
     //dagger 2.45
     implementation 'com.google.dagger:dagger:2.45'
