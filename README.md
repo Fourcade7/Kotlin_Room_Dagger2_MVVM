@@ -3,7 +3,7 @@
 
 
 
-
+      id 'kotlin-kapt'
 
       //Room database
          def room_version = "2.5.1"
